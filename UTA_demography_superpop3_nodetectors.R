@@ -2310,7 +2310,10 @@ write.csv(temp,file = "Density_table.csv",row.names = T)
 # MISC
 ############
 
+## compute annual survival
 
+
+siteanalysis_df$survival^12
 
 
 
